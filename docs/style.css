@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "Commit Mono";
+  src: url("/commitmono.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fruances Soft Black";
+  src: url("/fruances-soft-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+code {
+  font-family: "Commit Mono", monospace !important;
+}
+
+::selection {
+  color: #f5f5f5;
+  background-color: #657b69;
+}
+
+::-moz-selection {
+  color: #f5f5f5;
+  background-color: #657b69;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.7em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav .logo-link h1 {
+  margin: 0;
+}
+
+.nav .about-link h1 {
+  margin: 0;
+}
+
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.7em;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bottom-nav .link h1 {
+  margin: 0;
+}
+
+.bottom-nav .link.disabled {
+  visibility: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+article h1 a {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+.main {
+    flex: 1;
+    max-width: 960px;
+    width: 100%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    box-sizing: border-box;
+    background-color: #fefefe;
+}
+
+body, p, li {
+  /* font-family: SF Pro Display, Cotham Sans, Helvetica, Verdana, sans-serif; */
+  font-family: Helvetica, Verdana, sans-serif;
+  /* font-family: Cotham Sans, Helvetica, Verdana, sans-serif; */
+  margin: 0;
+  font-size: 1em;
+}
+
+h1, h2, h3 {
+  font-family: Fruances Soft Black, New York Large, Bagnard, Georgia, serif;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 0.9em;
+}
+
+article {
+}
+
+img {
+    overflow-x: auto;
+    border-radius: 6px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+:not(pre) > code {
+  background: orange;
+  color: white;
+  padding: 0.15em 0.3em;
+  border-radius: 0.4em; /* pill shape */
+  font-size: 0.9em;
+}
+
+pre, code {
+    font-family: "Commit Mono", monospace !important;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 1em;
+    border-radius: 6px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+blockquote {
+    overflow-x: auto;
+    padding: 1em;
+    border-radius: 6px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+	  background: #f5f5f5;
+    font-family: "Commit Mono", monospace !important;
+}
+
+blockquote p {
+  padding-bottom: 0 !important;
+  margin: 0; /* optionally reset margin too */
+}
+
+footer {
+    height: 4em;
+}
+
+.center {
+    margin-top: 2em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
